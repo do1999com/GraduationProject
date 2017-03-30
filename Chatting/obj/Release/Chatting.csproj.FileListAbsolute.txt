@@ -1,0 +1,16 @@
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\bin\Release\Chatting.exe.config
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\bin\Release\Chatting.exe
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\bin\Release\Chatting.pdb
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\bin\Release\SideBar.dll
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.ChatForm.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.FacesForm.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.Login.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.MainForm.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.PersonalInfoForm.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.Properties.Resources.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.RegisterForm.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.RequestForm.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.SearchFriendForm.resources
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.csproj.GenerateResource.Cache
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.exe
+E:\OneDrive\毕业论文\Chatting\Chatting\Chatting\obj\Release\Chatting.pdb

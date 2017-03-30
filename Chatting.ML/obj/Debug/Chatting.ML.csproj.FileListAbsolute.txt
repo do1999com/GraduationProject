@@ -1,0 +1,15 @@
+E:\OneDrive\毕业论文\Chatting\ChattingV1.4\Chatting.ML\bin\Debug\Chatting.ML.dll
+E:\OneDrive\毕业论文\Chatting\ChattingV1.4\Chatting.ML\bin\Debug\Chatting.ML.pdb
+E:\OneDrive\毕业论文\Chatting\ChattingV1.4\Chatting.ML\obj\Debug\Chatting.ML.dll
+E:\OneDrive\毕业论文\Chatting\ChattingV1.4\Chatting.ML\obj\Debug\Chatting.ML.pdb
+E:\OneDrive\毕业论文\Chatting\ChattingV1.4\Chatting.ML\obj\Debug\Chatting.ML.csprojResolveAssemblyReference.cache
+E:\OneDrive\毕业论文\Chatting\ChattingV1.5\Chatting.ML\obj\Debug\Chatting.ML.csprojResolveAssemblyReference.cache
+E:\OneDrive\毕业论文\Chatting\ChattingV1.5\Chatting.ML\obj\Debug\Chatting.ML.dll
+E:\OneDrive\毕业论文\Chatting\ChattingV1.5\Chatting.ML\obj\Debug\Chatting.ML.pdb
+E:\OneDrive\毕业论文\Chatting\ChattingV1.5\Chatting.ML\bin\Debug\Chatting.ML.dll
+E:\OneDrive\毕业论文\Chatting\ChattingV1.5\Chatting.ML\bin\Debug\Chatting.ML.pdb
+E:\OneDrive\毕业论文\Chatting\ChattingV1.6\Chatting.ML\bin\Debug\Chatting.ML.dll
+E:\OneDrive\毕业论文\Chatting\ChattingV1.6\Chatting.ML\bin\Debug\Chatting.ML.pdb
+E:\OneDrive\毕业论文\Chatting\ChattingV1.6\Chatting.ML\obj\Debug\Chatting.ML.csprojResolveAssemblyReference.cache
+E:\OneDrive\毕业论文\Chatting\ChattingV1.6\Chatting.ML\obj\Debug\Chatting.ML.dll
+E:\OneDrive\毕业论文\Chatting\ChattingV1.6\Chatting.ML\obj\Debug\Chatting.ML.pdb

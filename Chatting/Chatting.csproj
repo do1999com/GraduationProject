@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35F6BE02-1DAB-47CB-9D7E-9EAFE6A68E0A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chatting</RootNamespace>
+    <AssemblyName>Chatting</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Chatting.ML, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Chatting.ML.dll</HintPath>
+    </Reference>
+    <Reference Include="SideBar, Version=1.0.2813.28543, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SideBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatForm.Designer.cs">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacesForm.Designer.cs">
+      <DependentUpon>FacesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalInfoForm.designer.cs">
+      <DependentUpon>PersonalInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestForm.designer.cs">
+      <DependentUpon>RequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchFriendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchFriendForm.designer.cs">
+      <DependentUpon>SearchFriendForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\GetMyCityName\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Weather\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChatForm.resx">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacesForm.resx">
+      <DependentUpon>FacesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalInfoForm.resx">
+      <DependentUpon>PersonalInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestForm.resx">
+      <DependentUpon>RequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchFriendForm.resx">
+      <DependentUpon>SearchFriendForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\GetMyCityName\IpAddressSearchWebService.wsdl" />
+    <None Include="Web References\GetMyCityName\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Weather\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Weather\WeatherWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\GetMyCityName\IpAddressSearchWebService.disco" />
+    <None Include="Web References\Weather\WeatherWebService.disco" />
+    <None Include="images\tsbtnMessages.png" />
+    <Content Include="bin\Debug\logo.ico" />
+    <Content Include="images\BaseInfo.png" />
+    <Content Include="images\BaseInfoClick.png" />
+    <Content Include="images\btnLoginA.png" />
+    <Content Include="images\btnLoginB.png" />
+    <Content Include="images\btnUpdateFriendList.png" />
+    <Content Include="images\ChatFormBackGround.png" />
+    <Content Include="images\FaceFormBackGround.png" />
+    <Content Include="images\LoginFormBackGround.png" />
+    <Content Include="images\logo.ico" />
+    <Content Include="images\MainBottom.png" />
+    <Content Include="images\MainFormBackGround.png" />
+    <Content Include="images\PersonInfoBackGround.png" />
+    <Content Include="images\PersonInfoBackGround1.png" />
+    <Content Include="images\PersonInfoToFaces.jpg" />
+    <Content Include="images\PersonInfoToFaces.png" />
+    <Content Include="images\RequestFormBackGround.png" />
+    <Content Include="images\SearchFriendsIcon.png" />
+    <Content Include="images\SearFriendFormBackGround.jpg" />
+    <Content Include="images\SearFrinedsBackGround.png" />
+    <Content Include="images\Security.png" />
+    <Content Include="images\SecurityClick.png" />
+    <Content Include="images\tsbtnExit.png" />
+    <Content Include="images\tsbtnPersonInfo.png" />
+    <Content Include="images\tsbtnSearchFriend.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2810%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2811%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2812%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2813%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2816%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2819%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %282%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2820%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2821%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2822%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2823%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2824%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2825%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2827%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2828%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2829%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2830%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2831%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2832%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2833%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %2834%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %284%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %286%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %287%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %288%29.png" />
+    <Content Include="images\原始素材\手机贴吧版泡泡 %289%29.png" />
+    <Content Include="SideBar.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.webxml.com.cn/WebServices/IpAddressSearchWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\GetMyCityName\</RelPath>
+      <UpdateFromURL>http://www.webxml.com.cn/WebServices/IpAddressSearchWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Chatting_GetMyCityName_IpAddressSearchWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.webxml.com.cn/WebServices/WeatherWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Weather\</RelPath>
+      <UpdateFromURL>http://www.webxml.com.cn/WebServices/WeatherWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Chatting_Weather_WeatherWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
